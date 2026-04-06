@@ -1,0 +1,43 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0d0f18;
+  --surface: #151824;
+  --surface2: #1e2235;
+  --border: #272c42;
+  --border-hover: #383f5c;
+  --text: #dce0f5;
+  --text-muted: #6b7299;
+  --text-hint: #3f4666;
+
+  --teal: #1D9E75;
+  --teal-dark: #0F6E56;
+  --blue: #378ADD;
+  --blue-dark: #185FA5;
+  --red: #E24B4A;
+  --red-dark: #A32D2D;
+  --amber: #EF9F27;
+  --purple: #7F77DD;
+  --green: #639922;
+
+  --radius: 10px;
+  --radius-sm: 6px;
+  --radius-xs: 4px;
+}
+
+body {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+button, input, select { font-family: inherit; }
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
