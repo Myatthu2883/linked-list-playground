@@ -1,5 +1,4 @@
 # Linked List Playground
-### Portfolio Project — Day 02
 
 An interactive web app to visualize and manipulate a **Singly Linked List** in real time, built with **Next.js 15 (App Router)** and **React 18**.
 
@@ -84,4 +83,3 @@ src/
 
 ---
 
-*Part of a 30-day CS Portfolio Project series.*
